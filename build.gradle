@@ -68,4 +68,9 @@ task systemProperties(type: Test) {
     useJUnitPlatform{
         includeTags "systemProperties"
     }
-}
+
+    task owner (type: Test) {
+        useJUnitPlatform {
+            includeTags "owner"
+        }
+    }}

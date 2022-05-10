@@ -48,7 +48,7 @@ public class SystemPropertiesTests {
                 100
                 1920x1080
 
-           gradle clean test5 -Dbrowser=opera -Dversion=99 -DbrowserSize=300x300 - команда в консоле с параметрами
+           gradle clean test5 -Dbrowser=opera -Dversion=99 -DbrowserSize=300x300
                 opera
                 99
                 300x300
