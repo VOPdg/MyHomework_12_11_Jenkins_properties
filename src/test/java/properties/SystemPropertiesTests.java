@@ -2,9 +2,11 @@ package properties;
 
         import org.junit.jupiter.api.Tag;
         import org.junit.jupiter.api.Test;
+        import qa.TestBase;
 
 @Tag("systemProperties")
 public class SystemPropertiesTests {
+
     @Test
     void someTest1() {
         String browser = System.getProperty("browser");
